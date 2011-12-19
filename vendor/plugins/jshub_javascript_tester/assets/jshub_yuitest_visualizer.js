@@ -20,7 +20,7 @@
     return;
   }
   
-  var resultsDiv = Y.get('#results');
+  var resultsDiv = Y.one('#results');
   var statusBar = Y.Node.create('<div class="logsummary"></div>');
   resultsDiv.appendChild(statusBar);
   var resultsTable = Y.Node.create('<table class="logtable">' +
